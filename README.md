@@ -1,4 +1,3 @@
-# TataMotors-Stock-Prediction
 # Tata Motors Stock Price Prediction
 
 This project is a Machine Learning and Time Series Analysis application that predicts Tata Motors stock prices using historical stock market data. The model analyzes previous stock trends and forecasts future stock prices using regression techniques.
