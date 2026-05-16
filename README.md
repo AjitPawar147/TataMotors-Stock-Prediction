@@ -42,6 +42,8 @@ Dataset used:
 ```bash id="wgo9m4"
 TATAMOTORS_NSE_1995-2025.csv
 
+---
+
 ## Project Structure
 ├── README.md
 ├── TATAMOTORS_NSE_1995-2025.csv
