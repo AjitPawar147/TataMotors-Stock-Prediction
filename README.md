@@ -52,55 +52,5 @@ TATAMOTORS_NSE_1995-2025.csv
 ├── pipeline.pkl
 └── output.csv
 
-## Machine Learning Workflow
-1. Import Libraries
 
-Libraries used for:
 
-Data analysis
-Visualization
-Model training
-Performance evaluation
-
-2. Load Dataset
-
-The stock dataset is loaded using Pandas.
-
-df = pd.read_csv("TATAMOTORS_NSE_1995-2025.csv")
-Data Preprocessing
-
-The preprocessing pipeline includes:
-
-Handling missing values
-Feature scaling using StandardScaler
-Data transformation using Scikit-learn Pipeline
-Model Training
-
-The project uses:
-
-LinearRegression()
-
-for stock price prediction.
-
-The dataset is divided into:
-
-Training data
-Testing data
-
-using:
-
-train_test_split()
-Model Evaluation
-
-The model performance is evaluated using:
-
-Mean Squared Error (MSE)
-Root Mean Squared Error (RMSE)
-R² Score
-Visualization
-
-Matplotlib is used to visualize:
-
-Stock price trends
-Actual vs Predicted prices
-Historical market movement
